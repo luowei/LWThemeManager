@@ -1,0 +1,16 @@
+PODS:
+  - LWThemeManager (0.1.0)
+
+DEPENDENCIES:
+  - LWThemeManager (from `../`)
+
+EXTERNAL SOURCES:
+  LWThemeManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LWThemeManager: 7be9e01896ce013a790a18900cc44fc31a3b2b3f
+
+PODFILE CHECKSUM: 64e696f522c9e9c162abb58f681553669293f20b
+
+COCOAPODS: 1.8.3

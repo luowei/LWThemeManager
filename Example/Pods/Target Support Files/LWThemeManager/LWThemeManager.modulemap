@@ -1,0 +1,6 @@
+framework module LWThemeManager {
+  umbrella header "LWThemeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
