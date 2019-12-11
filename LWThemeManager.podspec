@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LWThemeManager/Classes/**/*'
+
+  s.resources = [
+      'LWThemeManager/Assets/KeyboardTheme.bundle'
+  ]
   
   # s.resource_bundles = {
   #   'LWThemeManager' => ['LWThemeManager/Assets/*.png']

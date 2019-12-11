@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00494CD6BF48D2F2898EBAF21D16D7D0 /* Pods-LWThemeManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F6BCDB3F80FF9593CCCD0A559F267 /* Pods-LWThemeManager_Tests-dummy.m */; };
-		0DE34BF96704F32CAA9FCFF706430003 /* LWThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C954A78EBE760EB6FC4271E8AF0D0712 /* LWThemeManager.m */; };
-		1ABAB61FA6B0FDB62AF79CC76CAD9D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3738AB3AC15F8D544525AF67BE044625 /* LWThemeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A4E35FE096018D48A857171A25D95 /* LWThemeExtension.m */; };
+		2069FB729950118D3686EA56202D9AA7 /* LWThemeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6737993E3AE9E31CB8BB899A64E1D7A0 /* LWThemeExtension.m */; };
 		3E593B91EB41A98FB3D69A344BDA2827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4B2C09E1FCB871BF04E33A4F6A431FB5 /* LWThemeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AD46D7359A11151BFD2A717B91D59596 /* LWThemeExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BAFAD21912FA34F5C40ADEB9E03B07E /* LWThemeManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F00A81B8106DBCA02EDABB95AF004CC5 /* LWThemeManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478688990D34C7A59B2E692BEF1B8AF9 /* LWThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC3A504A7D3A4611DDF3359F2105246 /* LWThemeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E07F3BCF1BE9CF493DC217C73489459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62AEBDB77FFA23D63AFBD498A7D4092E /* KeyboardTheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1B83DD93C56B70A737F1ED15A6A5FDD /* KeyboardTheme.bundle */; };
+		645D8AAB71748AC8C1775F736C0C3456 /* LWThemeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA523615B194D30CE1893FC454EF9CD /* LWThemeManager-dummy.m */; };
 		89154991EF8D968F3235722CB16EFF5D /* Pods-LWThemeManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E43C91E4A9BF568262F9537C1943F7D /* Pods-LWThemeManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA5D188F40B2594E693E274A7352162 /* LWThemeManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8805B23B1FCC3C3455DD4CBB86960F /* LWThemeManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6D81FE0ED61A7F3C12EED2626B44E82 /* Pods-LWThemeManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 995D129DC2D52B0810FC379B069A129F /* Pods-LWThemeManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDC00C93B4C2A743356F69767642F76E /* LWThemeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C184049EC58FD4C3B9759E85BAED24C /* LWThemeManager-dummy.m */; };
 		C006AF04117B19654A985793B9F99425 /* Pods-LWThemeManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF6F3013A77B8437140AAB3A5580DEC /* Pods-LWThemeManager_Example-dummy.m */; };
 		C49AD587DE87BBBC05E0E69C05828025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E7111A48CEC1AA87002E2B1C1C36B442 /* LWThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6017BBA77756E43CB0E5D67AB42E845D /* LWThemeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50C8AE51B92FABE31199FB44DE007FF /* LWThemeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 280508BA548DACBA68B611502783062F /* LWThemeExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9C167679D39018652A91120F9A74F2A /* LWThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C7300F2CEA486793A0959F2748955 /* LWThemeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,48 +42,49 @@
 
 /* Begin PBXFileReference section */
 		0494EE36C125FD6156C16203512CB434 /* Pods-LWThemeManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWThemeManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0B8805B23B1FCC3C3455DD4CBB86960F /* LWThemeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWThemeManager-umbrella.h"; sourceTree = "<group>"; };
+		0D3E336683ADA3B2B7EAF34D6914B896 /* LWThemeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWThemeManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1254B12091E4D05CABCB2194F2FCCBC7 /* Pods-LWThemeManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWThemeManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		222E31EE6F4C690DC48057E8A5FBE3A8 /* Pods_LWThemeManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LWThemeManager_Example.framework; path = "Pods-LWThemeManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		280508BA548DACBA68B611502783062F /* LWThemeExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWThemeExtension.h; path = LWThemeManager/Classes/LWThemeExtension.h; sourceTree = "<group>"; };
 		2B2E11D55C488B0607C976E7FA6C5958 /* Pods-LWThemeManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWThemeManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BFA51E503FFD54F2C12E639E3E843AC /* LWThemeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWThemeManager-prefix.pch"; sourceTree = "<group>"; };
 		2DF6F3013A77B8437140AAB3A5580DEC /* Pods-LWThemeManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWThemeManager_Example-dummy.m"; sourceTree = "<group>"; };
-		301A3616A309A772EDED8963163BC5E2 /* LWThemeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWThemeManager.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3276F8B4DAA8FE24C2B925FB8A494DA8 /* Pods-LWThemeManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWThemeManager_Tests.modulemap"; sourceTree = "<group>"; };
 		3A0E5664CA1CCCCC9126C80605B77DE1 /* Pods-LWThemeManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWThemeManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3C184049EC58FD4C3B9759E85BAED24C /* LWThemeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWThemeManager-dummy.m"; sourceTree = "<group>"; };
-		3D7A4E35FE096018D48A857171A25D95 /* LWThemeExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWThemeExtension.m; path = LWThemeManager/Classes/LWThemeExtension.m; sourceTree = "<group>"; };
-		4145EFBBEB6F6EFC83B1A7CCB177AE25 /* LWThemeManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWThemeManager.xcconfig; sourceTree = "<group>"; };
 		471F6BCDB3F80FF9593CCCD0A559F267 /* Pods-LWThemeManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWThemeManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		4E43C91E4A9BF568262F9537C1943F7D /* Pods-LWThemeManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWThemeManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		6017BBA77756E43CB0E5D67AB42E845D /* LWThemeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWThemeManager.h; path = LWThemeManager/Classes/LWThemeManager.h; sourceTree = "<group>"; };
+		53AD22C61055B702A62C7369FF63170F /* LWThemeManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWThemeManager.xcconfig; sourceTree = "<group>"; };
+		5D1C7300F2CEA486793A0959F2748955 /* LWThemeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWThemeManager.m; path = LWThemeManager/Classes/LWThemeManager.m; sourceTree = "<group>"; };
 		62B9F862C8C284A3AC4D989A6AE280EE /* Pods_LWThemeManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LWThemeManager_Tests.framework; path = "Pods-LWThemeManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		676A2F22CE4FFAB282404A8CA1E469CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6737993E3AE9E31CB8BB899A64E1D7A0 /* LWThemeExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWThemeExtension.m; path = LWThemeManager/Classes/LWThemeExtension.m; sourceTree = "<group>"; };
 		6892CC6035E2D50A9B761EDD1D51AF60 /* Pods-LWThemeManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWThemeManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6CA7F693BE0085AAE949F4EF53AB9F3C /* Pods-LWThemeManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWThemeManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		727F29BCA4BCEC4B71A948930BECACB0 /* Pods-LWThemeManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWThemeManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		75CAAD5BD1F80A8B267F802ECF5162DD /* LWThemeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LWThemeManager.framework; path = LWThemeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		780FFAEA881A14F0BE5BDFF628981D0F /* LWThemeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWThemeManager-prefix.pch"; sourceTree = "<group>"; };
+		75D8287E0AEBC7A9EEF684BF74F151B0 /* LWThemeManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWThemeManager-Info.plist"; sourceTree = "<group>"; };
+		888128A362C52D068A69C38B92A68DF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8BA523615B194D30CE1893FC454EF9CD /* LWThemeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWThemeManager-dummy.m"; sourceTree = "<group>"; };
 		95CA4BCF2D6FDFBC8B0D5121C660394A /* Pods-LWThemeManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWThemeManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		995D129DC2D52B0810FC379B069A129F /* Pods-LWThemeManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWThemeManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F4560B61622AA3A5F9560DEE3918E8F /* LWThemeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWThemeManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD46D7359A11151BFD2A717B91D59596 /* LWThemeExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWThemeExtension.h; path = LWThemeManager/Classes/LWThemeExtension.h; sourceTree = "<group>"; };
+		9DA65A4969576D08AF64BBCE1DA786A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AEBD8ECEC21229A22FD593A1F7AAF08E /* Pods-LWThemeManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWThemeManager_Example.modulemap"; sourceTree = "<group>"; };
-		C954A78EBE760EB6FC4271E8AF0D0712 /* LWThemeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWThemeManager.m; path = LWThemeManager/Classes/LWThemeManager.m; sourceTree = "<group>"; };
 		CB647D3449E4263CA7DDE9F5FA6DE0E6 /* Pods-LWThemeManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWThemeManager_Example-Info.plist"; sourceTree = "<group>"; };
-		D9F9F3CEB0E804B77ABF4A5A5E2ECBA7 /* LWThemeManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWThemeManager-Info.plist"; sourceTree = "<group>"; };
+		D1B83DD93C56B70A737F1ED15A6A5FDD /* KeyboardTheme.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = KeyboardTheme.bundle; path = LWThemeManager/Assets/KeyboardTheme.bundle; sourceTree = "<group>"; };
 		E5A20D9220DEC681E81E9226D64E986A /* Pods-LWThemeManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWThemeManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F00A81B8106DBCA02EDABB95AF004CC5 /* LWThemeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWThemeManager-umbrella.h"; sourceTree = "<group>"; };
 		F5B91478CEC88A045279F1922260FE32 /* Pods-LWThemeManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWThemeManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		F5E071E0F378FA8A7BC77C698A2FC3E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FAD012F583B54A8B9D69950994488016 /* LWThemeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWThemeManager.modulemap; sourceTree = "<group>"; };
+		FEC3A504A7D3A4611DDF3359F2105246 /* LWThemeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWThemeManager.h; path = LWThemeManager/Classes/LWThemeManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BE1592B92BDE00BB8D7E572959AA9EF /* Frameworks */ = {
+		ABC7D79875265258A34E4E020DE0FC75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ABAB61FA6B0FDB62AF79CC76CAD9D91 /* Foundation.framework in Frameworks */,
+				4E07F3BCF1BE9CF493DC217C73489459 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,29 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2172845F5B464BB876A1BFD60135ED2A /* LWThemeManager */ = {
+		08B72BF85E95324B689AA34AFB76D313 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AD46D7359A11151BFD2A717B91D59596 /* LWThemeExtension.h */,
-				3D7A4E35FE096018D48A857171A25D95 /* LWThemeExtension.m */,
-				6017BBA77756E43CB0E5D67AB42E845D /* LWThemeManager.h */,
-				C954A78EBE760EB6FC4271E8AF0D0712 /* LWThemeManager.m */,
-				684020164972E8BDA77CECB7246CD637 /* Pod */,
-				3C85E9E4586BA02CA1B058C7DAC26EEB /* Support Files */,
+				888128A362C52D068A69C38B92A68DF6 /* LICENSE */,
+				0D3E336683ADA3B2B7EAF34D6914B896 /* LWThemeManager.podspec */,
+				9DA65A4969576D08AF64BBCE1DA786A2 /* README.md */,
 			);
-			name = LWThemeManager;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		3C85E9E4586BA02CA1B058C7DAC26EEB /* Support Files */ = {
+		185E55929C579BB7DCF7A17E0695D7BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				301A3616A309A772EDED8963163BC5E2 /* LWThemeManager.modulemap */,
-				4145EFBBEB6F6EFC83B1A7CCB177AE25 /* LWThemeManager.xcconfig */,
-				3C184049EC58FD4C3B9759E85BAED24C /* LWThemeManager-dummy.m */,
-				D9F9F3CEB0E804B77ABF4A5A5E2ECBA7 /* LWThemeManager-Info.plist */,
-				780FFAEA881A14F0BE5BDFF628981D0F /* LWThemeManager-prefix.pch */,
-				F00A81B8106DBCA02EDABB95AF004CC5 /* LWThemeManager-umbrella.h */,
+				FAD012F583B54A8B9D69950994488016 /* LWThemeManager.modulemap */,
+				53AD22C61055B702A62C7369FF63170F /* LWThemeManager.xcconfig */,
+				8BA523615B194D30CE1893FC454EF9CD /* LWThemeManager-dummy.m */,
+				75D8287E0AEBC7A9EEF684BF74F151B0 /* LWThemeManager-Info.plist */,
+				2BFA51E503FFD54F2C12E639E3E843AC /* LWThemeManager-prefix.pch */,
+				0B8805B23B1FCC3C3455DD4CBB86960F /* LWThemeManager-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LWThemeManager";
@@ -142,24 +140,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		45DB73B07675D624B5130C972509F14C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2172845F5B464BB876A1BFD60135ED2A /* LWThemeManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		684020164972E8BDA77CECB7246CD637 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				676A2F22CE4FFAB282404A8CA1E469CA /* LICENSE */,
-				9F4560B61622AA3A5F9560DEE3918E8F /* LWThemeManager.podspec */,
-				F5E071E0F378FA8A7BC77C698A2FC3E1 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A165B4FCFC34A2331050A49D5608FC15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +148,14 @@
 				62B9F862C8C284A3AC4D989A6AE280EE /* Pods_LWThemeManager_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E7DD35ADDAAC5F791B8B33312B573B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1B83DD93C56B70A737F1ED15A6A5FDD /* KeyboardTheme.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		AF9D05ADC8068E6F0C53722C6A941070 /* Pods-LWThemeManager_Example */ = {
@@ -203,6 +191,21 @@
 			path = "Target Support Files/Pods-LWThemeManager_Tests";
 			sourceTree = "<group>";
 		};
+		BC1DCF1007F2DAB7C506F31174D1BF0E /* LWThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				280508BA548DACBA68B611502783062F /* LWThemeExtension.h */,
+				6737993E3AE9E31CB8BB899A64E1D7A0 /* LWThemeExtension.m */,
+				FEC3A504A7D3A4611DDF3359F2105246 /* LWThemeManager.h */,
+				5D1C7300F2CEA486793A0959F2748955 /* LWThemeManager.m */,
+				08B72BF85E95324B689AA34AFB76D313 /* Pod */,
+				A5E7DD35ADDAAC5F791B8B33312B573B /* Resources */,
+				185E55929C579BB7DCF7A17E0695D7BE /* Support Files */,
+			);
+			name = LWThemeManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				45DB73B07675D624B5130C972509F14C /* Development Pods */,
+				E71A226400CA8A311D10CF4DB0D82EFF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A165B4FCFC34A2331050A49D5608FC15 /* Products */,
 				45D3D5436055EF8F9A7453B15956D028 /* Targets Support Files */,
@@ -230,6 +233,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E71A226400CA8A311D10CF4DB0D82EFF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC1DCF1007F2DAB7C506F31174D1BF0E /* LWThemeManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -241,21 +252,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1AF29FF6D2742062AF9D0DD805551727 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B2C09E1FCB871BF04E33A4F6A431FB5 /* LWThemeExtension.h in Headers */,
-				5BAFAD21912FA34F5C40ADEB9E03B07E /* LWThemeManager-umbrella.h in Headers */,
-				E7111A48CEC1AA87002E2B1C1C36B442 /* LWThemeManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5202DEE1C9893B8D71C0CE50C48CEB92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B6D81FE0ED61A7F3C12EED2626B44E82 /* Pods-LWThemeManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B93239FAB32EAFC92B4EF4BDC7A689 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C8AE51B92FABE31199FB44DE007FF /* LWThemeExtension.h in Headers */,
+				8AA5D188F40B2594E693E274A7352162 /* LWThemeManager-umbrella.h in Headers */,
+				478688990D34C7A59B2E692BEF1B8AF9 /* LWThemeManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +294,12 @@
 		};
 		D07B5795E2F2224C8BFF84CEC3F107AE /* LWThemeManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A00963E8A82AA70BAD38D553DD7E6751 /* Build configuration list for PBXNativeTarget "LWThemeManager" */;
+			buildConfigurationList = B5ED5D3D76D74E14F75E2CD7A7C0289E /* Build configuration list for PBXNativeTarget "LWThemeManager" */;
 			buildPhases = (
-				1AF29FF6D2742062AF9D0DD805551727 /* Headers */,
-				8ACC24298D0A8B7CA9685E31F826F2B3 /* Sources */,
-				9BE1592B92BDE00BB8D7E572959AA9EF /* Frameworks */,
-				19032D4F4AEC9DB3A089DAB15B6EDBFC /* Resources */,
+				57B93239FAB32EAFC92B4EF4BDC7A689 /* Headers */,
+				50797BA04EBD6AD6EE5FE96819900148 /* Sources */,
+				ABC7D79875265258A34E4E020DE0FC75 /* Frameworks */,
+				D3DF6E71CE02AABE620331724D4FD156 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,13 +358,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		19032D4F4AEC9DB3A089DAB15B6EDBFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30F7A64BA46572722F53BE7B1C113523 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,9 +372,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3DF6E71CE02AABE620331724D4FD156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AEBDB77FFA23D63AFBD498A7D4092E /* KeyboardTheme.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		50797BA04EBD6AD6EE5FE96819900148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2069FB729950118D3686EA56202D9AA7 /* LWThemeExtension.m in Sources */,
+				645D8AAB71748AC8C1775F736C0C3456 /* LWThemeManager-dummy.m in Sources */,
+				F9C167679D39018652A91120F9A74F2A /* LWThemeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AFA461FD081D966E9E1E6C385F1E16B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,16 +406,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00494CD6BF48D2F2898EBAF21D16D7D0 /* Pods-LWThemeManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ACC24298D0A8B7CA9685E31F826F2B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3738AB3AC15F8D544525AF67BE044625 /* LWThemeExtension.m in Sources */,
-				BDC00C93B4C2A743356F69767642F76E /* LWThemeManager-dummy.m in Sources */,
-				0DE34BF96704F32CAA9FCFF706430003 /* LWThemeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,38 +427,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13BAD574C4758B34B6D7CDB7BACB5A9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4145EFBBEB6F6EFC83B1A7CCB177AE25 /* LWThemeManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LWThemeManager/LWThemeManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LWThemeManager/LWThemeManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LWThemeManager/LWThemeManager.modulemap";
-				PRODUCT_MODULE_NAME = LWThemeManager;
-				PRODUCT_NAME = LWThemeManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -506,6 +486,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		68944433259279F5CB84AA6B4F440232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53AD22C61055B702A62C7369FF63170F /* LWThemeManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWThemeManager/LWThemeManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWThemeManager/LWThemeManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWThemeManager/LWThemeManager.modulemap";
+				PRODUCT_MODULE_NAME = LWThemeManager;
+				PRODUCT_NAME = LWThemeManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7469980ADBBF4FF669CEB278A414B1FD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -638,37 +649,6 @@
 			};
 			name = Debug;
 		};
-		8E48EF90B984DDD4CDC55F242EA8A07E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4145EFBBEB6F6EFC83B1A7CCB177AE25 /* LWThemeManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LWThemeManager/LWThemeManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LWThemeManager/LWThemeManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LWThemeManager/LWThemeManager.modulemap";
-				PRODUCT_MODULE_NAME = LWThemeManager;
-				PRODUCT_NAME = LWThemeManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C2A6B2EA503D95A61FBE7879181AE063 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5A20D9220DEC681E81E9226D64E986A /* Pods-LWThemeManager_Example.release.xcconfig */;
@@ -736,6 +716,38 @@
 			};
 			name = Debug;
 		};
+		E04FCC1304196723C59C1273F0DC650A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53AD22C61055B702A62C7369FF63170F /* LWThemeManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWThemeManager/LWThemeManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWThemeManager/LWThemeManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWThemeManager/LWThemeManager.modulemap";
+				PRODUCT_MODULE_NAME = LWThemeManager;
+				PRODUCT_NAME = LWThemeManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -766,11 +778,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A00963E8A82AA70BAD38D553DD7E6751 /* Build configuration list for PBXNativeTarget "LWThemeManager" */ = {
+		B5ED5D3D76D74E14F75E2CD7A7C0289E /* Build configuration list for PBXNativeTarget "LWThemeManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E48EF90B984DDD4CDC55F242EA8A07E /* Debug */,
-				13BAD574C4758B34B6D7CDB7BACB5A9D /* Release */,
+				68944433259279F5CB84AA6B4F440232 /* Debug */,
+				E04FCC1304196723C59C1273F0DC650A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

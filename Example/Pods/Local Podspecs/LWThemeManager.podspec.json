@@ -18,5 +18,8 @@
     "ios": "8.0"
   },
   "source_files": "LWThemeManager/Classes/**/*",
+  "resources": [
+    "LWThemeManager/Assets/KeyboardTheme.bundle"
+  ],
   "public_header_files": "LWThemeManager/Classes/**/*.h"
 }
