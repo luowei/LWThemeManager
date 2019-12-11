@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LWThemeManager_Example' do
+  pod 'LWThemeManager', :path => '../'
+
+  target 'LWThemeManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
