@@ -1,9 +1,9 @@
 {
   "name": "LWThemeManager",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of LWThemeManager.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/luowei/LWThemeManager",
+  "homepage": "https://gitlab.com/ioslibraries1/lwthememanager.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "luowei": "luowei@wodedata.com"
   },
   "source": {
-    "git": "https://github.com/luowei/LWThemeManager.git",
-    "tag": "0.1.0"
+    "git": "https://gitlab.com/ioslibraries1/lwthememanager.git"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LWThemeManager/Classes/**/*"
+  "source_files": "LWThemeManager/Classes/**/*",
+  "public_header_files": "LWThemeManager/Classes/**/*.h"
 }

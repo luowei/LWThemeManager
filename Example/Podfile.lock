@@ -1,5 +1,5 @@
 PODS:
-  - LWThemeManager (0.1.0)
+  - LWThemeManager (1.0.0)
 
 DEPENDENCIES:
   - LWThemeManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LWThemeManager: 7be9e01896ce013a790a18900cc44fc31a3b2b3f
+  LWThemeManager: 86fc8fb890e96a7186bf4f1f42eaf0f3a73eb4ce
 
 PODFILE CHECKSUM: 64e696f522c9e9c162abb58f681553669293f20b
 
