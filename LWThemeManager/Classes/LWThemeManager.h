@@ -33,10 +33,13 @@
 
 + (LWThemeManager *)sharedInstance;
 
-+(NSString*)bundlePathNamed:(NSString*)name ofBundle:(NSString*)bundleName;
++(NSString *)pathInBundleWithFileName:(NSString *)fileName;
 
 //恢复默认主题设置
 -(void)recoverDefaultTheme;
+
+//更新主题
+-(void)updateThemeWithName:(NSString *)name;
 
 @end
 

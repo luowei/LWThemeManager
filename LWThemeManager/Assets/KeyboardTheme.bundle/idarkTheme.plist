@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>inputView.backgroundColor</key>
-	<string>244,244,244,255</string>
+	<string>22,25,25,255</string>
 	<key>inputView.backgroundImage</key>
 	<string></string>
 	<key>skinSetting.selectedIndexPath</key>
@@ -13,19 +13,19 @@
 	<key>btn.space.verticel</key>
 	<string>0</string>
 	<key>topLabel.font.color</key>
-	<string>210,210,210,255</string>
+	<string>84,84,84,255</string>
 	<key>font.color</key>
-	<string>60,60,60,255</string>
+	<string>188,188,191,255</string>
 	<key>font.name</key>
 	<string>Helvetica-Light</string>
 	<key>font.highlightColor</key>
-	<string>255,255,255,255</string>
+	<string>0,0,0,255</string>
 	<key>btn.content.color</key>
-	<string>252,252,252,255</string>
+	<string>28,28,30,255</string>
 	<key>btn.content.highlightColor</key>
-	<string>100,100,100,200</string>
+	<string>86,81,81,255</string>
 	<key>btn.borderColor</key>
-	<string>127,127,127,255</string>
+	<string>40,40,43,255</string>
 	<key>btn.borderWidth</key>
 	<real>0</real>
 	<key>btn.cornerRadius</key>

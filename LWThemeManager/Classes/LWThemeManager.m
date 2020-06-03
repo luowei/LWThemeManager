@@ -31,14 +31,14 @@
 //        NSString *bundleFilePath = [[NSBundle mainBundle] pathForResource:themeName ofType:@"plist"];
         
         NSString *themeName = @"defaultTheme";
-        NSString *bundleFilePath = [LWThemeManager bundlePathNamed:@"defaultTheme.plist" ofBundle:@"KeyboardTheme.bundle"];
+        NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:@"defaultTheme.plist"];
 
         NSFileManager *fmanager = [NSFileManager defaultManager];
         NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
         NSString *docFilePath = [documentsDirectory stringByAppendingPathComponent:themeName];
 
         //在Document是不存在
-        if (![fmanager fileExistsAtPath:docFilePath]) {
+//        if (![fmanager fileExistsAtPath:docFilePath]) {
             //先拷贝Bundle里下的到docment目录下
             NSError *error;
             [fmanager copyItemAtPath:bundleFilePath toPath:docFilePath error:&error];
@@ -46,12 +46,16 @@
                 self.theme = [NSDictionary dictionaryWithContentsOfFile:bundleFilePath].mutableCopy;
                 return self;
             }
-        }
+//        }
         self.theme = [NSDictionary dictionaryWithContentsOfFile:docFilePath].mutableCopy;
 
     }
     return self;
 
+}
+
++(NSString *)pathInBundleWithFileName:(NSString *)fileName {
+    return [LWThemeManager bundlePathNamed:fileName ofBundle:@"KeyboardTheme.bundle"];
 }
 
 +(NSString*)bundlePathNamed:(NSString*)name ofBundle:(NSString*)bundleName{
@@ -64,7 +68,7 @@
 }
 
 -(NSDictionary *)defaultTheme{
-    NSString *bundleFilePath = [LWThemeManager bundlePathNamed:@"defaultTheme.plist" ofBundle:@"KeyboardTheme.bundle"];
+    NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:@"defaultTheme.plist"];
     //NSString *bundleFilePath = [[NSBundle mainBundle] pathForResource:@"defaultTheme" ofType:@"plist"];
     if(!_defaultTheme){
         _defaultTheme = [NSDictionary dictionaryWithContentsOfFile:bundleFilePath];
@@ -92,12 +96,20 @@
 //恢复默认主题设置
 -(void)recoverDefaultTheme{
     //NSString *bundleFilePath = [[NSBundle mainBundle] pathForResource:@"defaultTheme" ofType:@"plist"];
-    NSString *bundleFilePath = [LWThemeManager bundlePathNamed:@"defaultTheme.plist" ofBundle:@"KeyboardTheme.bundle"];
+    [self updateThemeWithName:@"default"];
+}
+
+-(void)updateThemeWithName:(NSString *)name {
+    NSString *plistName = [NSString stringWithFormat:@"%@Theme.plist",name ?: @"default"];
+    NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:plistName];
+    NSFileManager *fmanager = [NSFileManager defaultManager];
+    if(![fmanager fileExistsAtPath:bundleFilePath]){
+        return;
+    }
 
     NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
     NSString *docFilePath = [documentsDirectory stringByAppendingPathComponent:@"defaultTheme"];
 
-    NSFileManager *fmanager = [NSFileManager defaultManager];
     NSError *error;
     //在Document是存在
     if ([fmanager fileExistsAtPath:docFilePath]) {
