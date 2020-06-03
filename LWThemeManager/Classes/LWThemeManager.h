@@ -25,15 +25,20 @@
 
 @interface LWThemeManager : NSObject
 
-@property(nonatomic, strong) NSMutableDictionary *theme;
-@property(nonatomic, strong, readonly) NSDictionary *defaultTheme;
++ (LWThemeManager *)sharedInstance;
+
++(NSString *)pathInBundleWithFileName:(NSString *)fileName;
+
+//theme name
+-(NSString *)currentName;
+
+-(NSMutableDictionary *)theme;
 
 //把theme数据保存到文件
 -(void)setThemeValue:(id)value forKey:(NSString *)key;
 
-+ (LWThemeManager *)sharedInstance;
-
-+(NSString *)pathInBundleWithFileName:(NSString *)fileName;
+//从当前主题新建一个主题
+-(BOOL)copyANewThemeWithName:(NSString *)themeName;
 
 //恢复默认主题设置
 -(void)recoverDefaultTheme;

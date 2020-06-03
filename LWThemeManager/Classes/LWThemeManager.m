@@ -8,8 +8,11 @@
 
 #import "LWThemeManager.h"
 
+static NSString *const Dir_Themes = @"themes";
+
 @implementation LWThemeManager{
-    NSDictionary *_defaultTheme;
+    NSMutableDictionary *_theme;
+    NSString *_currentName;
 }
 
 + (LWThemeManager *)sharedInstance {
@@ -23,36 +26,36 @@
     return sharedInstance;
 }
 
-- (id)init {
-    if ((self = [super init])) {
-
-//        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-//        NSString *themeName = [defaults objectForKey:Key_Theme] ?: @"defaultTheme";
-//        NSString *bundleFilePath = [[NSBundle mainBundle] pathForResource:themeName ofType:@"plist"];
-        
-        NSString *themeName = @"defaultTheme";
-        NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:@"defaultTheme.plist"];
-
-        NSFileManager *fmanager = [NSFileManager defaultManager];
-        NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-        NSString *docFilePath = [documentsDirectory stringByAppendingPathComponent:themeName];
-
-        //在Document是不存在
+//- (id)init {
+//    if ((self = [super init])) {
+//
+////        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+////        NSString *themeName = [defaults objectForKey:Key_Theme] ?: @"defaultTheme";
+////        NSString *bundleFilePath = [[NSBundle mainBundle] pathForResource:themeName ofType:@"plist"];
+//
+//        NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:@"defaultTheme.plist"];
+//
+//        NSFileManager *fmanager = [NSFileManager defaultManager];
+//        NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+//        NSString *docFilePath = [documentsDirectory stringByAppendingPathComponent:Dir_Themes];
+//
+//        //在Document是不存在
 //        if (![fmanager fileExistsAtPath:docFilePath]) {
-            //先拷贝Bundle里下的到docment目录下
-            NSError *error;
-            [fmanager copyItemAtPath:bundleFilePath toPath:docFilePath error:&error];
-            if (error) {
-                self.theme = [NSDictionary dictionaryWithContentsOfFile:bundleFilePath].mutableCopy;
-                return self;
-            }
+//            //先拷贝Bundle里下的到docment目录下
+//            NSError *error;
+//            [fmanager copyItemAtPath:bundleFilePath toPath:docFilePath error:&error];
+//            if (error) {
+//                self.theme = [NSDictionary dictionaryWithContentsOfFile:bundleFilePath].mutableCopy;
+//            }
+//        }else{
+//            self.theme = [NSDictionary dictionaryWithContentsOfFile:docFilePath].mutableCopy;
 //        }
-        self.theme = [NSDictionary dictionaryWithContentsOfFile:docFilePath].mutableCopy;
-
-    }
-    return self;
-
-}
+//        _currentName=@"default";
+//
+//    }
+//    return self;
+//
+//}
 
 +(NSString *)pathInBundleWithFileName:(NSString *)fileName {
     return [LWThemeManager bundlePathNamed:fileName ofBundle:@"KeyboardTheme.bundle"];
@@ -67,30 +70,52 @@
     return file_path;
 }
 
--(NSDictionary *)defaultTheme{
-    NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:@"defaultTheme.plist"];
-    //NSString *bundleFilePath = [[NSBundle mainBundle] pathForResource:@"defaultTheme" ofType:@"plist"];
-    if(!_defaultTheme){
-        _defaultTheme = [NSDictionary dictionaryWithContentsOfFile:bundleFilePath];
+-(NSString *)currentName {
+    return _currentName;
+}
+
+-(NSMutableDictionary *)theme {
+    if(_currentName && _theme){
+        return _theme;
     }
-    return _defaultTheme;
+    [self updateThemeWithName:_currentName ?: @"default"];
+    return _theme;
 }
 
 //把theme数据保存到文件
 -(void)setThemeValue:(id)value forKey:(NSString *)key{
     [[LWThemeManager sharedInstance].theme setValue:value forKey:key];
-    [self writeThemeToDoc];
-}
 
-//把theme数据写入到docment的文件中
--(void)writeThemeToDoc{
-
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSString *themeName = [defaults objectForKey:Key_Theme] ?: @"defaultTheme";
+    //把theme数据写入到docment的文件中
+    NSString *themeName = [NSString stringWithFormat:@"%@Theme.plist",_currentName];
 
     NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-    NSString *docFilePath = [documentsDirectory stringByAppendingPathComponent:themeName];
-    [self.theme writeToFile:docFilePath atomically:YES];
+    NSString *themeDirPath = [documentsDirectory stringByAppendingPathComponent:themeName];
+    [self.theme writeToFile:themeDirPath atomically:YES];
+}
+
+//从当前主题新建一个主题
+-(BOOL)copyANewThemeWithName:(NSString *)themeName {
+    NSString *plistName = [NSString stringWithFormat:@"%@Theme.plist",_currentName ?: @"default"];
+    NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:plistName];
+    NSFileManager *fmanager = [NSFileManager defaultManager];
+    if(![fmanager fileExistsAtPath:bundleFilePath]){
+        return NO;
+    }
+
+    NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    NSString *themeDirPath = [documentsDirectory stringByAppendingPathComponent:Dir_Themes];
+    NSString *themeFilePath = [themeDirPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@Theme.plist", themeName]];
+
+    //拷贝Bundle里下的到docment目录下
+    NSError *error;
+    [fmanager copyItemAtPath:bundleFilePath toPath:themeFilePath error:&error];
+
+    if (error) {
+        return NO;
+    }else{
+        return YES;
+    }
 }
 
 //恢复默认主题设置
@@ -99,7 +124,12 @@
     [self updateThemeWithName:@"default"];
 }
 
+//根据name更新主题
 -(void)updateThemeWithName:(NSString *)name {
+    if([name isEqualToString:_currentName] && _theme!=nil ){
+        return;
+    }
+
     NSString *plistName = [NSString stringWithFormat:@"%@Theme.plist",name ?: @"default"];
     NSString *bundleFilePath = [LWThemeManager pathInBundleWithFileName:plistName];
     NSFileManager *fmanager = [NSFileManager defaultManager];
@@ -108,20 +138,21 @@
     }
 
     NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-    NSString *docFilePath = [documentsDirectory stringByAppendingPathComponent:@"defaultTheme"];
+    NSString *themeDirPath = [documentsDirectory stringByAppendingPathComponent:Dir_Themes];
 
     NSError *error;
     //在Document是存在
-    if ([fmanager fileExistsAtPath:docFilePath]) {
-        [fmanager removeItemAtPath:docFilePath error:&error];   //删除
+    if ([fmanager fileExistsAtPath:themeDirPath]) {
+        [fmanager removeItemAtPath:themeDirPath error:&error];   //删除
     }
     //拷贝Bundle里下的到docment目录下
-    [fmanager copyItemAtPath:bundleFilePath toPath:docFilePath error:&error];
+    [fmanager copyItemAtPath:bundleFilePath toPath:themeDirPath error:&error];
     if (error) {
-        self.theme = [NSDictionary dictionaryWithContentsOfFile:bundleFilePath].mutableCopy;
+        _theme = [NSDictionary dictionaryWithContentsOfFile:bundleFilePath].mutableCopy;
     }else{
-        self.theme = [NSDictionary dictionaryWithContentsOfFile:docFilePath].mutableCopy;
+        _theme = [NSDictionary dictionaryWithContentsOfFile:themeDirPath].mutableCopy;
     }
+    _currentName=name;
 }
 
 
