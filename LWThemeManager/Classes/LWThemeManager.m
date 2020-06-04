@@ -93,8 +93,26 @@ static NSString *const Dir_Themes = @"themes";
 
 //恢复默认主题设置
 -(void)recoverDefaultTheme{
-    //NSString *bundleFilePath = [[NSBundle mainBundle] pathForResource:@"defaultTheme" ofType:@"plist"];
-    [self updateThemeWithName:@"default"];
+    NSString *plistName = [NSString stringWithFormat:@"%@Theme.plist",_currentName ?: @"default"];
+    NSString *documentsPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    NSString *nameDirPath = [NSString stringWithFormat:@"%@/%@/%@", documentsPath, Dir_Themes, _currentName];
+    NSString *docPlistPath = [NSString stringWithFormat:@"%@/%@", nameDirPath, plistName];
+    NSString *bundPlistPath = [LWThemeManager pathInBundleWithFileName:plistName];
+
+    //判断是否存在
+    NSError *error;
+    NSFileManager *fmanager = [NSFileManager defaultManager];
+    if([fmanager fileExistsAtPath:docPlistPath]) {  //document下不存在
+        [fmanager removeItemAtPath:docPlistPath error:&error];
+    }
+
+    //拷贝
+    [fmanager copyItemAtPath:bundPlistPath toPath:docPlistPath error:&error];
+    if (error) {
+        _theme = [NSDictionary dictionaryWithContentsOfFile:bundPlistPath].mutableCopy;
+    }else{
+        _theme = [NSDictionary dictionaryWithContentsOfFile:docPlistPath ].mutableCopy;
+    }
 }
 
 //根据name更新主题
