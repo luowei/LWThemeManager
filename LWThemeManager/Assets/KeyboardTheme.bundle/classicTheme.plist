@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>inputView.backgroundColor</key>
-	<string>102,140,130,255</string>
+	<string>58,48,63,255</string>
 	<key>inputView.backgroundImage</key>
 	<string></string>
 	<key>skinSetting.selectedIndexPath</key>
