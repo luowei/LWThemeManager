@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>inputView.backgroundColor</key>
+	<string>163,163,191,255</string>
+	<key>inputView.backgroundImage</key>
+	<string></string>
+	<key>skinSetting.selectedIndexPath</key>
+	<string>0,0</string>
+	<key>btn.space.horizon</key>
+	<integer>0</integer>
+	<key>btn.space.verticel</key>
+	<string>0</string>
+	<key>topLabel.font.color</key>
+	<string>120,120,120,200</string>
+	<key>font.color</key>
+	<string>60,60,60,255</string>
+	<key>font.name</key>
+	<string>Helvetica-Light</string>
+	<key>font.highlightColor</key>
+	<string>255,255,255,255</string>
+	<key>btn.content.color</key>
+	<string>252,252,252,16</string>
+	<key>btn.content.highlightColor</key>
+	<string>100,100,100,128</string>
+	<key>btn.borderColor</key>
+	<string>127,127,127,255</string>
+	<key>btn.borderWidth</key>
+	<real>0</real>
+	<key>btn.cornerRadius</key>
+	<integer>0</integer>
+	<key>btn.opacity</key>
+	<integer>0</integer>
+	<key>btn.shadow.color</key>
+	<string>127,127,127,255</string>
+	<key>btn.shadow.height</key>
+	<integer>0</integer>
+	<key>btn.topAndMain.space</key>
+	<real>0</real>
+	<key>btn.mainLabel.fontSize</key>
+	<integer>20</integer>
+	<key>btn.topLabel.fontSize</key>
+	<integer>10</integer>
+	<key>footerText.fontSize</key>
+	<integer>12</integer>
+	<key>predictive.first.fontSize</key>
+	<integer>30</integer>
+	<key>predictive.fontSize</key>
+	<string>18</string>
+</dict>
+</plist>

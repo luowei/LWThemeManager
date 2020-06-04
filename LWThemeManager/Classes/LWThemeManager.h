@@ -38,7 +38,7 @@
 -(void)setThemeValue:(id)value forKey:(NSString *)key;
 
 //从当前主题新建一个主题
--(BOOL)copyANewThemeWithName:(NSString *)themeName;
+-(BOOL)copyANewThemeWithName:(NSString *)name;
 
 //恢复默认主题设置
 -(void)recoverDefaultTheme;
