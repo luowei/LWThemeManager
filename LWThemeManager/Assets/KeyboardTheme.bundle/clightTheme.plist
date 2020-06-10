@@ -12,8 +12,6 @@
 	<integer>0</integer>
 	<key>btn.space.verticel</key>
 	<string>0</string>
-	<key>topLabel.font.color</key>
-	<string>0,99,117,200</string>
 	<key>font.color</key>
 	<string>60,60,60,255</string>
 	<key>font.name</key>
@@ -39,7 +37,7 @@
 	<key>btn.topAndMain.space</key>
 	<real>0</real>
 	<key>btn.mainLabel.fontSize</key>
-	<integer>20</integer>
+	<integer>22</integer>
 	<key>btn.topLabel.fontSize</key>
 	<integer>10</integer>
 	<key>footerText.fontSize</key>
