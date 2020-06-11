@@ -13,18 +13,20 @@
 	<key>btn.space.verticel</key>
 	<string>0</string>
 	<key>font.color</key>
-	<string>188,188,191,255</string>
+	<string>255,255,255,255</string>
 	<key>font.name</key>
 	<string>Helvetica-Light</string>
 	<key>font.highlightColor</key>
 	<string>0,0,0,255</string>
-		<key>btn.content.color</key>
+	<key>btn.content.color</key>
 	<string>252,252,252,16</string>
 	<key>btn.content.highlightColor</key>
 	<string>100,100,100,128</string>
 	<key>btn.borderColor</key>
 	<string>50,50,56,255</string>
 	<key>btn.borderWidth</key>
+	<real>0</real>
+	<key>separator.width</key>
 	<real>0</real>
 	<key>btn.cornerRadius</key>
 	<integer>0</integer>

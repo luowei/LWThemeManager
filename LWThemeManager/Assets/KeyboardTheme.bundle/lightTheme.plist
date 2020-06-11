@@ -26,6 +26,8 @@
 	<string>127,127,127,255</string>
 	<key>btn.borderWidth</key>
 	<real>0</real>
+	<key>separator.width</key>
+	<real>0.5</real>
 	<key>btn.cornerRadius</key>
 	<integer>0</integer>
 	<key>btn.opacity</key>

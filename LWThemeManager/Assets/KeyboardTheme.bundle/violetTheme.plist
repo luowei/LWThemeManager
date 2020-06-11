@@ -13,7 +13,7 @@
 	<key>btn.space.verticel</key>
 	<string>0</string>
 	<key>font.color</key>
-	<string>60,60,60,255</string>
+	<string>0,0,0,255</string>
 	<key>font.name</key>
 	<string>Helvetica-Light</string>
 	<key>font.highlightColor</key>
@@ -25,6 +25,8 @@
 	<key>btn.borderColor</key>
 	<string>127,127,127,255</string>
 	<key>btn.borderWidth</key>
+	<real>0</real>
+	<key>separator.width</key>
 	<real>0</real>
 	<key>btn.cornerRadius</key>
 	<integer>0</integer>

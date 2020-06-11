@@ -9,11 +9,11 @@
 	<key>skinSetting.selectedIndexPath</key>
 	<string>0,0</string>
 	<key>btn.space.horizon</key>
-	<integer>0</integer>
+	<integer>2</integer>
 	<key>btn.space.verticel</key>
-	<string>0</string>
+	<string>4</string>
 	<key>font.color</key>
-	<string>60,60,60,255</string>
+	<string>0,0,0,255</string>
 	<key>font.name</key>
 	<string>Helvetica-Light</string>
 	<key>font.highlightColor</key>
@@ -26,8 +26,10 @@
 	<string>127,127,127,255</string>
 	<key>btn.borderWidth</key>
 	<real>0</real>
+	<key>separator.width</key>
+	<real>0</real>
 	<key>btn.cornerRadius</key>
-	<integer>0</integer>
+	<integer>4</integer>
 	<key>btn.opacity</key>
 	<integer>0</integer>
 	<key>btn.shadow.color</key>
