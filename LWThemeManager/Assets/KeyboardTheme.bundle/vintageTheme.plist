@@ -9,9 +9,9 @@
 	<key>skinSetting.selectedIndexPath</key>
 	<string>0,0</string>
 	<key>btn.space.horizon</key>
-	<integer>0</integer>
+	<integer>4</integer>
 	<key>btn.space.verticel</key>
-	<string>0</string>
+	<string>6</string>
 	<key>font.color</key>
 	<string>255,255,255,255</string>
 	<key>font.name</key>
@@ -29,7 +29,7 @@
 	<key>separator.width</key>
 	<real>0</real>
 	<key>btn.cornerRadius</key>
-	<integer>0</integer>
+	<integer>6</integer>
 	<key>btn.opacity</key>
 	<integer>0</integer>
 	<key>btn.shadow.color</key>

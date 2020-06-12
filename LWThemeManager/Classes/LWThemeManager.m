@@ -63,6 +63,25 @@ static NSString *const Dir_Themes = @"themes";
     [self.theme writeToFile:themePlistPath atomically:YES];
 }
 
+//更新指定theme文件的key、value
+-(void)updateThemeWithName:(NSString *)name value:(id)value forKey:(NSString *)key {
+    NSString *themeName = name ?: _currentName;
+    NSString *plistName = [NSString stringWithFormat:@"%@Theme.plist", themeName];
+
+    //判断文件是否存在
+    NSString *documentsPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    NSString *themePlistPath = [NSString stringWithFormat:@"%@/%@/%@/%@", documentsPath, Dir_Themes, themeName, plistName];
+    if(![[NSFileManager defaultManager] fileExistsAtPath:themePlistPath]){
+        return;
+    }
+
+    //重新保存
+    NSMutableDictionary *theme = [NSDictionary dictionaryWithContentsOfFile:themePlistPath].mutableCopy;
+    [theme setValue:value forKey:key];
+    [theme writeToFile:themePlistPath atomically:YES];
+
+}
+
 //从当前主题新建一个主题
 -(BOOL)copyANewThemeWithName:(NSString *)name {
     //判断当前Plist是否存在,不存在用default plist
@@ -125,7 +144,7 @@ static NSString *const Dir_Themes = @"themes";
     //拼接path
     NSString *plistName = [NSString stringWithFormat:@"%@Theme.plist",name ?: @"default"];
     NSString *documentsPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-    NSString *nameDirPath = [NSString stringWithFormat:@"%@/%@/%@", documentsPath, Dir_Themes, name];
+    NSString *nameDirPath = [NSString stringWithFormat:@"%@/%@/%@", documentsPath, Dir_Themes, name ?: @"default"];
     NSString *docPlistPath = [NSString stringWithFormat:@"%@/%@", nameDirPath, plistName];
     NSString *bundPlistPath = [LWThemeManager pathInBundleWithFileName:plistName];
     NSString *defaultPlistPath = [LWThemeManager pathInBundleWithFileName:@"defaultTheme.plist"];
