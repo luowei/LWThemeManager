@@ -82,6 +82,24 @@ static NSString *const Dir_Themes = @"themes";
 
 }
 
+-(void)removeThemeWithName:(NSString *)themeName {
+    if(!themeName){
+        return;
+    }
+    NSString *plistName = [NSString stringWithFormat:@"%@Theme.plist", themeName];
+
+    //判断文件是否存在
+    NSString *documentsPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    NSString *themePlistPath = [NSString stringWithFormat:@"%@/%@/%@/%@", documentsPath, Dir_Themes, themeName, plistName];
+    if(![[NSFileManager defaultManager] fileExistsAtPath:themePlistPath]){
+        return;
+    }
+    
+    //删除
+    [[NSFileManager defaultManager] removeItemAtPath:themePlistPath error:nil];
+    
+}
+
 //从当前主题新建一个主题
 -(BOOL)copyANewThemeWithName:(NSString *)name {
     //判断当前Plist是否存在,不存在用default plist

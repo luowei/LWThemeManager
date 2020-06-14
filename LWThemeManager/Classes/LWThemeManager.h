@@ -40,6 +40,9 @@
 //更新指定theme文件的key、value
 -(void)updateThemeWithName:(NSString *)name value:(id)value forKey:(NSString *)key;
 
+//删除主题
+-(void)removeThemeWithName:(NSString *)themeName;
+
 //从当前主题新建一个主题
 -(BOOL)copyANewThemeWithName:(NSString *)name;
 
