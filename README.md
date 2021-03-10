@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LWThemeManager'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWThemeManager"
+```
+
 ## Author
 
 luowei, luowei@wodedata.com

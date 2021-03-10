@@ -2,7 +2,7 @@
 // Created by luowei on 2019/12/11.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 
 @interface UIColor (LWTheme)
