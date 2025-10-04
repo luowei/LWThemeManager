@@ -1,6 +1,6 @@
 # LWThemeManager
 
-[English](./README.md) | [中文版](./README_ZH.md)
+[English](./README.md) | [中文版](./README_ZH.md) | [Swift Version](./README_SWIFT_VERSION.md)
 
 [![CI Status](https://img.shields.io/travis/luowei/LWThemeManager.svg?style=flat)](https://travis-ci.org/luowei/LWThemeManager)
 [![Version](https://img.shields.io/cocoapods/v/LWThemeManager.svg?style=flat)](https://cocoapods.org/pods/LWThemeManager)

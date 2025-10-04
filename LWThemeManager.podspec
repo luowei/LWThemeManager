@@ -31,12 +31,13 @@ LWThemeManager，万能输入法的主题管理组件.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LWThemeManager/Classes/**/*'
+  s.source_files = 'LWThemeManager/Classes/**/*.{h,m}'
+  s.exclude_files = 'LWThemeManager/Classes/**/*.swift'
 
   s.resources = [
       'LWThemeManager/Assets/KeyboardTheme.bundle'
   ]
-  
+
   # s.resource_bundles = {
   #   'LWThemeManager' => ['LWThemeManager/Assets/*.png']
   # }
