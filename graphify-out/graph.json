@@ -1,0 +1,1839 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "LWThemeExtension.h",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeExtension.h",
+      "source_location": "L1",
+      "id": "lwthememanager_classes_lwthemeextension_h",
+      "community": 11,
+      "norm_label": "lwthemeextension.h"
+    },
+    {
+      "label": "LWThemeManager.m",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L1",
+      "id": "lwthememanager_classes_lwthememanager_m",
+      "community": 0,
+      "norm_label": "lwthememanager.m"
+    },
+    {
+      "label": "LWThemeManager",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L15",
+      "id": "classes_lwthememanager_lwthememanager",
+      "community": 0,
+      "norm_label": "lwthememanager"
+    },
+    {
+      "label": "-sharedInstance",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L18",
+      "id": "classes_lwthememanager_lwthememanager_sharedinstance",
+      "community": 0,
+      "norm_label": "-sharedinstance"
+    },
+    {
+      "label": "-pathInBundleWithFileName",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L29",
+      "id": "classes_lwthememanager_lwthememanager_pathinbundlewithfilename",
+      "community": 0,
+      "norm_label": "-pathinbundlewithfilename"
+    },
+    {
+      "label": "-bundlePathNamedofBundle",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L33",
+      "id": "classes_lwthememanager_lwthememanager_bundlepathnamedofbundle",
+      "community": 0,
+      "norm_label": "-bundlepathnamedofbundle"
+    },
+    {
+      "label": "-currentName",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L42",
+      "id": "classes_lwthememanager_lwthememanager_currentname",
+      "community": 0,
+      "norm_label": "-currentname"
+    },
+    {
+      "label": "-theme",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L46",
+      "id": "classes_lwthememanager_lwthememanager_theme",
+      "community": 0,
+      "norm_label": "-theme"
+    },
+    {
+      "label": "-setThemeValueforKey",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L55",
+      "id": "classes_lwthememanager_lwthememanager_setthemevalueforkey",
+      "community": 0,
+      "norm_label": "-setthemevalueforkey"
+    },
+    {
+      "label": "-updateThemeWithNamevalueforKey",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L67",
+      "id": "classes_lwthememanager_lwthememanager_updatethemewithnamevalueforkey",
+      "community": 0,
+      "norm_label": "-updatethemewithnamevalueforkey"
+    },
+    {
+      "label": "-removeThemeWithName",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L85",
+      "id": "classes_lwthememanager_lwthememanager_removethemewithname",
+      "community": 0,
+      "norm_label": "-removethemewithname"
+    },
+    {
+      "label": "-copyANewThemeWithName",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L104",
+      "id": "classes_lwthememanager_lwthememanager_copyanewthemewithname",
+      "community": 0,
+      "norm_label": "-copyanewthemewithname"
+    },
+    {
+      "label": ".recoverDefaultTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L187",
+      "id": "classes_lwthememanager_lwthememanager_recoverdefaulttheme",
+      "community": 6,
+      "norm_label": ".recoverdefaulttheme()"
+    },
+    {
+      "label": "-updateThemeWithName",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L156",
+      "id": "classes_lwthememanager_lwthememanager_updatethemewithname",
+      "community": 0,
+      "norm_label": "-updatethemewithname"
+    },
+    {
+      "label": "LWThemeExtension.m",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeExtension.m",
+      "source_location": "L1",
+      "id": "lwthememanager_classes_lwthemeextension_m",
+      "community": 2,
+      "norm_label": "lwthemeextension.m"
+    },
+    {
+      "label": "UIColor",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L11",
+      "id": "classes_lwthemeextension_uicolor",
+      "community": 2,
+      "norm_label": "uicolor"
+    },
+    {
+      "label": "-theme_colorWithRGBAString",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeExtension.m",
+      "source_location": "L10",
+      "id": "classes_lwthemeextension_uicolor_theme_colorwithrgbastring",
+      "community": 2,
+      "norm_label": "-theme_colorwithrgbastring"
+    },
+    {
+      "label": "-theme_rgbaStringFromUIColor",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeExtension.m",
+      "source_location": "L41",
+      "id": "classes_lwthemeextension_uicolor_theme_rgbastringfromuicolor",
+      "community": 2,
+      "norm_label": "-theme_rgbastringfromuicolor"
+    },
+    {
+      "label": "LWThemeManager.h",
+      "file_type": "code",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.h",
+      "source_location": "L1",
+      "id": "lwthememanager_classes_lwthememanager_h",
+      "community": 12,
+      "norm_label": "lwthememanager.h"
+    },
+    {
+      "label": "LWViewController.h",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWViewController.h",
+      "source_location": "L1",
+      "id": "example_lwthememanager_lwviewcontroller_h",
+      "community": 13,
+      "norm_label": "lwviewcontroller.h"
+    },
+    {
+      "label": "LWAppDelegate.h",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.h",
+      "source_location": "L1",
+      "id": "example_lwthememanager_lwappdelegate_h",
+      "community": 14,
+      "norm_label": "lwappdelegate.h"
+    },
+    {
+      "label": "main.m",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/main.m",
+      "source_location": "L1",
+      "id": "example_lwthememanager_main_m",
+      "community": 15,
+      "norm_label": "main.m"
+    },
+    {
+      "label": "LWAppDelegate.m",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L1",
+      "id": "example_lwthememanager_lwappdelegate_m",
+      "community": 4,
+      "norm_label": "lwappdelegate.m"
+    },
+    {
+      "label": "LWAppDelegate",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L11",
+      "id": "lwthememanager_lwappdelegate_lwappdelegate",
+      "community": 4,
+      "norm_label": "lwappdelegate"
+    },
+    {
+      "label": "-applicationdidFinishLaunchingWithOptions",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L13",
+      "id": "lwthememanager_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "community": 4,
+      "norm_label": "-applicationdidfinishlaunchingwithoptions"
+    },
+    {
+      "label": "-applicationWillResignActive",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L19",
+      "id": "lwthememanager_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "community": 4,
+      "norm_label": "-applicationwillresignactive"
+    },
+    {
+      "label": "-applicationDidEnterBackground",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L25",
+      "id": "lwthememanager_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "community": 4,
+      "norm_label": "-applicationdidenterbackground"
+    },
+    {
+      "label": "-applicationWillEnterForeground",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L31",
+      "id": "lwthememanager_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "community": 4,
+      "norm_label": "-applicationwillenterforeground"
+    },
+    {
+      "label": "-applicationDidBecomeActive",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L36",
+      "id": "lwthememanager_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "community": 4,
+      "norm_label": "-applicationdidbecomeactive"
+    },
+    {
+      "label": "-applicationWillTerminate",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L41",
+      "id": "lwthememanager_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "community": 4,
+      "norm_label": "-applicationwillterminate"
+    },
+    {
+      "label": "LWViewController.m",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWViewController.m",
+      "source_location": "L1",
+      "id": "example_lwthememanager_lwviewcontroller_m",
+      "community": 9,
+      "norm_label": "lwviewcontroller.m"
+    },
+    {
+      "label": "LWViewController",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWViewController.m",
+      "source_location": "L11",
+      "id": "lwthememanager_lwviewcontroller_lwviewcontroller",
+      "community": 9,
+      "norm_label": "lwviewcontroller"
+    },
+    {
+      "label": "-viewDidLoad",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWViewController.m",
+      "source_location": "L17",
+      "id": "lwthememanager_lwviewcontroller_lwviewcontroller_viewdidload",
+      "community": 9,
+      "norm_label": "-viewdidload"
+    },
+    {
+      "label": "-didReceiveMemoryWarning",
+      "file_type": "code",
+      "source_file": "Example/LWThemeManager/LWViewController.m",
+      "source_location": "L23",
+      "id": "lwthememanager_lwviewcontroller_lwviewcontroller_didreceivememorywarning",
+      "community": 9,
+      "norm_label": "-didreceivememorywarning"
+    },
+    {
+      "label": "Tests.m",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L1",
+      "id": "example_tests_tests_m",
+      "community": 7,
+      "norm_label": "tests.m"
+    },
+    {
+      "label": "Tests",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "id": "tests_tests_tests",
+      "community": 7,
+      "norm_label": "tests"
+    },
+    {
+      "label": "-setUp",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "id": "tests_tests_tests_setup",
+      "community": 7,
+      "norm_label": "-setup"
+    },
+    {
+      "label": "-tearDown",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L23",
+      "id": "tests_tests_tests_teardown",
+      "community": 7,
+      "norm_label": "-teardown"
+    },
+    {
+      "label": "-testExample",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L29",
+      "id": "tests_tests_tests_testexample",
+      "community": 7,
+      "norm_label": "-testexample"
+    },
+    {
+      "label": "LWThemeManager.swift",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L1",
+      "id": "lwthememanager_swift_classes_lwthememanager_swift",
+      "community": 0,
+      "norm_label": "lwthememanager.swift"
+    },
+    {
+      "label": ".floatValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L18",
+      "id": "classes_lwthememanager_lwthememanager_floatvalue",
+      "community": 0,
+      "norm_label": ".floatvalue()"
+    },
+    {
+      "label": ".stringValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L23",
+      "id": "classes_lwthememanager_lwthememanager_stringvalue",
+      "community": 0,
+      "norm_label": ".stringvalue()"
+    },
+    {
+      "label": ".colorValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L28",
+      "id": "classes_lwthememanager_lwthememanager_colorvalue",
+      "community": 10,
+      "norm_label": ".colorvalue()"
+    },
+    {
+      "label": ".cgColorValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L34",
+      "id": "classes_lwthememanager_lwthememanager_cgcolorvalue",
+      "community": 10,
+      "norm_label": ".cgcolorvalue()"
+    },
+    {
+      "label": ".setFloatValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L39",
+      "id": "classes_lwthememanager_lwthememanager_setfloatvalue",
+      "community": 8,
+      "norm_label": ".setfloatvalue()"
+    },
+    {
+      "label": ".setColorValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L44",
+      "id": "classes_lwthememanager_lwthememanager_setcolorvalue",
+      "community": 8,
+      "norm_label": ".setcolorvalue()"
+    },
+    {
+      "label": ".setCGColorValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L51",
+      "id": "classes_lwthememanager_lwthememanager_setcgcolorvalue",
+      "community": 8,
+      "norm_label": ".setcgcolorvalue()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L70",
+      "id": "classes_lwthememanager_lwthememanager_init",
+      "community": 0,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".pathInBundle()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L77",
+      "id": "classes_lwthememanager_lwthememanager_pathinbundle",
+      "community": 6,
+      "norm_label": ".pathinbundle()"
+    },
+    {
+      "label": ".setThemeValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L99",
+      "id": "classes_lwthememanager_lwthememanager_setthemevalue",
+      "community": 8,
+      "norm_label": ".setthemevalue()"
+    },
+    {
+      "label": ".updateTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L118",
+      "id": "classes_lwthememanager_lwthememanager_updatetheme",
+      "community": 6,
+      "norm_label": ".updatetheme()"
+    },
+    {
+      "label": ".removeTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L140",
+      "id": "classes_lwthememanager_lwthememanager_removetheme",
+      "community": 0,
+      "norm_label": ".removetheme()"
+    },
+    {
+      "label": ".copyNewTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L158",
+      "id": "classes_lwthememanager_lwthememanager_copynewtheme",
+      "community": 6,
+      "norm_label": ".copynewtheme()"
+    },
+    {
+      "label": ".bundlePath()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L263",
+      "id": "classes_lwthememanager_lwthememanager_bundlepath",
+      "community": 6,
+      "norm_label": ".bundlepath()"
+    },
+    {
+      "label": "LWThemeExtension.swift",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L1",
+      "id": "lwthememanager_swift_classes_lwthemeextension_swift",
+      "community": 2,
+      "norm_label": "lwthemeextension.swift"
+    },
+    {
+      "label": ".theme_color()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L16",
+      "id": "classes_lwthemeextension_uicolor_theme_color",
+      "community": 2,
+      "norm_label": ".theme_color()"
+    },
+    {
+      "label": ".theme_rgbaString()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L57",
+      "id": "classes_lwthemeextension_uicolor_theme_rgbastring",
+      "community": 2,
+      "norm_label": ".theme_rgbastring()"
+    },
+    {
+      "label": "CGColor",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L81",
+      "id": "classes_lwthemeextension_cgcolor",
+      "community": 2,
+      "norm_label": "cgcolor"
+    },
+    {
+      "label": ".theme_color()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L86",
+      "id": "classes_lwthemeextension_cgcolor_theme_color",
+      "community": 2,
+      "norm_label": ".theme_color()"
+    },
+    {
+      "label": ".theme_rgbaString()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L92",
+      "id": "classes_lwthemeextension_cgcolor_theme_rgbastring",
+      "community": 2,
+      "norm_label": ".theme_rgbastring()"
+    },
+    {
+      "label": "LWThemeManagerObservable.swift",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L1",
+      "id": "lwthememanager_swift_classes_lwthememanagerobservable_swift",
+      "community": 5,
+      "norm_label": "lwthememanagerobservable.swift"
+    },
+    {
+      "label": "LWThemeManagerObservable",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L13",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "community": 1,
+      "norm_label": "lwthememanagerobservable"
+    },
+    {
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "observableobject",
+      "community": 1,
+      "norm_label": "observableobject"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L27",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_init",
+      "community": 1,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".refreshTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L34",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "community": 1,
+      "norm_label": ".refreshtheme()"
+    },
+    {
+      "label": ".updateTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L41",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_updatetheme",
+      "community": 1,
+      "norm_label": ".updatetheme()"
+    },
+    {
+      "label": ".setThemeValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L50",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_setthemevalue",
+      "community": 1,
+      "norm_label": ".setthemevalue()"
+    },
+    {
+      "label": ".floatValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L56",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_floatvalue",
+      "community": 1,
+      "norm_label": ".floatvalue()"
+    },
+    {
+      "label": ".stringValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L61",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_stringvalue",
+      "community": 1,
+      "norm_label": ".stringvalue()"
+    },
+    {
+      "label": ".color()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L66",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_color",
+      "community": 1,
+      "norm_label": ".color()"
+    },
+    {
+      "label": ".uiColor()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L74",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_uicolor",
+      "community": 1,
+      "norm_label": ".uicolor()"
+    },
+    {
+      "label": ".setFloatValue()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L79",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_setfloatvalue",
+      "community": 1,
+      "norm_label": ".setfloatvalue()"
+    },
+    {
+      "label": ".setColor()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L85",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_setcolor",
+      "community": 1,
+      "norm_label": ".setcolor()"
+    },
+    {
+      "label": ".setUIColor()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L92",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_setuicolor",
+      "community": 1,
+      "norm_label": ".setuicolor()"
+    },
+    {
+      "label": ".copyNewTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L98",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_copynewtheme",
+      "community": 1,
+      "norm_label": ".copynewtheme()"
+    },
+    {
+      "label": ".removeTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L108",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_removetheme",
+      "community": 1,
+      "norm_label": ".removetheme()"
+    },
+    {
+      "label": ".recoverDefaultTheme()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L114",
+      "id": "classes_lwthememanagerobservable_lwthememanagerobservable_recoverdefaulttheme",
+      "community": 1,
+      "norm_label": ".recoverdefaulttheme()"
+    },
+    {
+      "label": "EnvironmentValues",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L121",
+      "id": "classes_lwthememanagerobservable_environmentvalues",
+      "community": 5,
+      "norm_label": "environmentvalues"
+    },
+    {
+      "label": "ThemeManagerKey",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L129",
+      "id": "classes_lwthememanagerobservable_thememanagerkey",
+      "community": 5,
+      "norm_label": "thememanagerkey"
+    },
+    {
+      "label": "EnvironmentKey",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "environmentkey",
+      "community": 5,
+      "norm_label": "environmentkey"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L135",
+      "id": "classes_lwthememanagerobservable_view",
+      "community": 5,
+      "norm_label": "view"
+    },
+    {
+      "label": ".themeManager()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L138",
+      "id": "classes_lwthememanagerobservable_view_thememanager",
+      "community": 5,
+      "norm_label": ".thememanager()"
+    },
+    {
+      "label": "LWThemeManager+Examples.swift",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L1",
+      "id": "lwthememanager_swift_classes_lwthememanager_examples_swift",
+      "community": 3,
+      "norm_label": "lwthememanager+examples.swift"
+    },
+    {
+      "label": "LWThemeManager",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L13",
+      "id": "classes_lwthememanager_examples_lwthememanager",
+      "community": 3,
+      "norm_label": "lwthememanager"
+    },
+    {
+      "label": ".exampleBasicUsage()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L16",
+      "id": "classes_lwthememanager_examples_lwthememanager_examplebasicusage",
+      "community": 3,
+      "norm_label": ".examplebasicusage()"
+    },
+    {
+      "label": ".exampleThemeManagement()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L32",
+      "id": "classes_lwthememanager_examples_lwthememanager_examplethememanagement",
+      "community": 3,
+      "norm_label": ".examplethememanagement()"
+    },
+    {
+      "label": "LWThemeManagerObservable",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L53",
+      "id": "classes_lwthememanager_examples_lwthememanagerobservable",
+      "community": 3,
+      "norm_label": "lwthememanagerobservable"
+    },
+    {
+      "label": "ExampleView",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L57",
+      "id": "classes_lwthememanager_examples_exampleview",
+      "community": 3,
+      "norm_label": "exampleview"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "view",
+      "community": 3,
+      "norm_label": "view"
+    },
+    {
+      "label": "ExampleEnvironmentView",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L88",
+      "id": "classes_lwthememanager_examples_exampleenvironmentview",
+      "community": 3,
+      "norm_label": "exampleenvironmentview"
+    },
+    {
+      "label": ".exampleOperations()",
+      "file_type": "code",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L98",
+      "id": "classes_lwthememanager_examples_lwthememanagerobservable_exampleoperations",
+      "community": 3,
+      "norm_label": ".exampleoperations()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwthememanager_classes_lwthememanager_m",
+      "target": "classes_lwthememanager_lwthememanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_sharedinstance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_pathinbundlewithfilename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_bundlepathnamedofbundle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_currentname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_theme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_setthemevalueforkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_updatethemewithnamevalueforkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_removethemewithname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_copyanewthemewithname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_recoverdefaulttheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeManager.m",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_updatethemewithname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanager_swift",
+      "target": "classes_lwthememanager_lwthememanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_floatvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_stringvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_colorvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_cgcolorvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_setfloatvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_setcolorvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_setcgcolorvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_pathinbundle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_setthemevalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_updatetheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_removetheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_copynewtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L263",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager",
+      "target": "classes_lwthememanager_lwthememanager_bundlepath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_recoverdefaulttheme",
+      "target": "classes_lwthememanager_lwthememanager_pathinbundle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeExtension.m",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "lwthememanager_classes_lwthemeextension_m",
+      "target": "classes_lwthemeextension_uicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeExtension.m",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "classes_lwthemeextension_uicolor",
+      "target": "classes_lwthemeextension_uicolor_theme_colorwithrgbastring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager/Classes/LWThemeExtension.m",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "classes_lwthemeextension_uicolor",
+      "target": "classes_lwthemeextension_uicolor_theme_rgbastringfromuicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthemeextension_swift",
+      "target": "classes_lwthemeextension_uicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "call",
+      "source": "classes_lwthemeextension_uicolor_theme_color",
+      "target": "classes_lwthemeextension_uicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "classes_lwthemeextension_uicolor",
+      "target": "classes_lwthemeextension_uicolor_theme_rgbastring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "classes_lwthemeextension_cgcolor_theme_rgbastring",
+      "target": "classes_lwthemeextension_uicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_lwthememanager_lwappdelegate_m",
+      "target": "lwthememanager_lwappdelegate_lwappdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwthememanager_lwappdelegate_lwappdelegate",
+      "target": "lwthememanager_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "lwthememanager_lwappdelegate_lwappdelegate",
+      "target": "lwthememanager_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "lwthememanager_lwappdelegate_lwappdelegate",
+      "target": "lwthememanager_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "lwthememanager_lwappdelegate_lwappdelegate",
+      "target": "lwthememanager_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "lwthememanager_lwappdelegate_lwappdelegate",
+      "target": "lwthememanager_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWAppDelegate.m",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "lwthememanager_lwappdelegate_lwappdelegate",
+      "target": "lwthememanager_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWViewController.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_lwthememanager_lwviewcontroller_m",
+      "target": "lwthememanager_lwviewcontroller_lwviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWViewController.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lwthememanager_lwviewcontroller_lwviewcontroller",
+      "target": "lwthememanager_lwviewcontroller_lwviewcontroller_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWThemeManager/LWViewController.m",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "lwthememanager_lwviewcontroller_lwviewcontroller",
+      "target": "lwthememanager_lwviewcontroller_lwviewcontroller_didreceivememorywarning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_tests_tests_m",
+      "target": "tests_tests_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_teardown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_testexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_cgcolorvalue",
+      "target": "classes_lwthememanager_lwthememanager_colorvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_setfloatvalue",
+      "target": "classes_lwthememanager_lwthememanager_setthemevalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_setcolorvalue",
+      "target": "classes_lwthememanager_lwthememanager_setthemevalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_setcgcolorvalue",
+      "target": "classes_lwthememanager_lwthememanager_setthemevalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_pathinbundle",
+      "target": "classes_lwthememanager_lwthememanager_bundlepath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_copynewtheme",
+      "target": "classes_lwthememanager_lwthememanager_pathinbundle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager.swift",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_lwthememanager_updatetheme",
+      "target": "classes_lwthememanager_lwthememanager_pathinbundle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthemeextension_swift",
+      "target": "classes_lwthemeextension_cgcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "classes_lwthemeextension_cgcolor",
+      "target": "classes_lwthemeextension_cgcolor_theme_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeExtension.swift",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "classes_lwthemeextension_cgcolor",
+      "target": "classes_lwthemeextension_cgcolor_theme_rgbastring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanagerobservable_swift",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanagerobservable_swift",
+      "target": "classes_lwthememanagerobservable_environmentvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanagerobservable_swift",
+      "target": "classes_lwthememanagerobservable_thememanagerkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanagerobservable_swift",
+      "target": "classes_lwthememanagerobservable_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "observableobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_updatetheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_setthemevalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_floatvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_stringvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_uicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_setfloatvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_setcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_setuicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_copynewtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_removetheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_recoverdefaulttheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_init",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_updatetheme",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_setthemevalue",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_setfloatvalue",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_setcolor",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_setuicolor",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_copynewtheme",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_removetheme",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_recoverdefaulttheme",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_refreshtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_lwthememanagerobservable_setcolor",
+      "target": "classes_lwthememanagerobservable_lwthememanagerobservable_uicolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_thememanagerkey",
+      "target": "environmentkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManagerObservable.swift",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "classes_lwthememanagerobservable_view",
+      "target": "classes_lwthememanagerobservable_view_thememanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanager_examples_swift",
+      "target": "classes_lwthememanager_examples_lwthememanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanager_examples_swift",
+      "target": "classes_lwthememanager_examples_lwthememanagerobservable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanager_examples_swift",
+      "target": "classes_lwthememanager_examples_exampleview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "lwthememanager_swift_classes_lwthememanager_examples_swift",
+      "target": "classes_lwthememanager_examples_exampleenvironmentview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_examples_lwthememanager",
+      "target": "classes_lwthememanager_examples_lwthememanager_examplebasicusage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_examples_lwthememanager",
+      "target": "classes_lwthememanager_examples_lwthememanager_examplethememanagement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_examples_lwthememanagerobservable",
+      "target": "classes_lwthememanager_examples_lwthememanagerobservable_exampleoperations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_examples_exampleview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWThemeManager_swift/Classes/LWThemeManager+Examples.swift",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "classes_lwthememanager_examples_exampleenvironmentview",
+      "target": "view",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
