@@ -1,5 +1,12 @@
 # LWThemeManager
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWThemeManager/
+- Report: https://luowei.github.io/LWThemeManager/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWThemeManager/graph.json
+
 [English](./README.md) | [中文版](./README_ZH.md) | [Swift Version](./README_SWIFT_VERSION.md)
 
 [![CI Status](https://img.shields.io/travis/luowei/LWThemeManager.svg?style=flat)](https://travis-ci.org/luowei/LWThemeManager)
